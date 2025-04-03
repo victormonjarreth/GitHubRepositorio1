@@ -28,14 +28,8 @@ var orderDepResult = dep.OrderBy(d => d.Value);
 //Encontrar el menor
 var menDep = dep.Select(d => d).Where(d => d.Value == dep.Values.ToArray().Min());
 //Encontrar el departamento con mayor población
-Console.WriteLine("Departamento con menor Población:");
-
-foreach (var order in menDep)
-    Console.WriteLine($"{order.Key,20} ==> {order.Value,10:N0}");
-
-Console.WriteLine("Departamento con mayor Población:");
-foreach (var item in orderDepResult)
-    Console.WriteLine($"{item.Key,20} ==> {item.Value,10:N0}");
+Console.WriteLine ($"Departamento con mayor Población:{maxDepkey}");
+Console.WriteLine ($"Departamento con menor Población:{minDepkey}");
     //Sumar todas las poblaciones con LINQ
 int total = orderDepResult.ToDictionary(kvp => kvp.Key, kvp => kvp.Value).Values.ToArray().Sum();
 
