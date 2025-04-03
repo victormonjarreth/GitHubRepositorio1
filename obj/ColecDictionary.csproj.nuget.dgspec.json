@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/freddypalacios/DAII/ColecDictionary/ColecDictionary.csproj": {}
+    "C:\\Users\\OTROS\\Downloads\\ColecDictionary\\ColecDictionary.csproj": {}
   },
   "projects": {
-    "/Users/freddypalacios/DAII/ColecDictionary/ColecDictionary.csproj": {
+    "C:\\Users\\OTROS\\Downloads\\ColecDictionary\\ColecDictionary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/freddypalacios/DAII/ColecDictionary/ColecDictionary.csproj",
+        "projectUniqueName": "C:\\Users\\OTROS\\Downloads\\ColecDictionary\\ColecDictionary.csproj",
         "projectName": "ColecDictionary",
-        "projectPath": "/Users/freddypalacios/DAII/ColecDictionary/ColecDictionary.csproj",
-        "packagesPath": "/Users/freddypalacios/.nuget/packages/",
-        "outputPath": "/Users/freddypalacios/DAII/ColecDictionary/obj/",
+        "projectPath": "C:\\Users\\OTROS\\Downloads\\ColecDictionary\\ColecDictionary.csproj",
+        "packagesPath": "C:\\Users\\OTROS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OTROS\\Downloads\\ColecDictionary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/freddypalacios/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\OTROS\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -56,15 +56,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.35, 6.0.35]"
+              "version": "[6.0.31, 6.0.31]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.osx-x64",
-              "version": "[6.0.35, 6.0.35]"
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.31, 6.0.31]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.35, 6.0.35]"
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
             }
           ],
           "frameworkReferences": {
@@ -72,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

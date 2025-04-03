@@ -28,13 +28,16 @@ var orderDepResult = dep.OrderBy(d => d.Value);
 var menDep = dep.Select(d => d).Where(d => d.Value == dep.Values.ToArray().Min());
 //Encontrar el departamento con mayor población
 Console.WriteLine("Departamento con menor Población:");
+
 foreach (var order in menDep)
     Console.WriteLine($"{order.Key,20} ==> {order.Value,10:N0}");
+
 Console.WriteLine("Departamento con mayor Población:");
 foreach (var item in orderDepResult)
     Console.WriteLine($"{item.Key,20} ==> {item.Value,10:N0}");
     //Sumar todas las poblaciones con LINQ
 int total = orderDepResult.ToDictionary(kvp => kvp.Key, kvp => kvp.Value).Values.ToArray().Sum();
+
 Console.WriteLine($"Población General:{total,17:N0}");
 //mostrar los tres departamentos con mayor población
 var tresMayores = orderDepResult.TakeLast(3);
@@ -42,4 +45,3 @@ Console.WriteLine($"Los tres departemento con mayor población son:");
 tresMayores = tresMayores.OrderByDescending(d => d.Value);
 foreach (var item in tresMayores)
     Console.WriteLine($"{item.Key}");
-

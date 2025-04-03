@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "RlV7iE4tz7U=",
+  "dgSpecHash": "7rPPFZw4Y9o=",
   "success": true,
-  "projectFilePath": "/Users/freddypalacios/DAII/ColecDictionary/ColecDictionary.csproj",
+  "projectFilePath": "C:\\Users\\OTROS\\Downloads\\ColecDictionary\\ColecDictionary.csproj",
   "expectedPackageFiles": [
-    "/Users/freddypalacios/.nuget/packages/microsoft.netcore.app.ref/6.0.35/microsoft.netcore.app.ref.6.0.35.nupkg.sha512",
-    "/Users/freddypalacios/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.35/microsoft.aspnetcore.app.ref.6.0.35.nupkg.sha512",
-    "/Users/freddypalacios/.nuget/packages/microsoft.netcore.app.host.osx-x64/6.0.35/microsoft.netcore.app.host.osx-x64.6.0.35.nupkg.sha512"
+    "C:\\Users\\OTROS\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.31\\microsoft.netcore.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\OTROS\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.31\\microsoft.windowsdesktop.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\OTROS\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.31\\microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\OTROS\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.31\\microsoft.netcore.app.host.win-x64.6.0.31.nupkg.sha512"
   ],
   "logs": []
 }
