@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+A<<<<<<< HEAD
 ﻿//programa que permita visualizar los departamentos de nicaragua con
 //su cantidad poblacional.
 //Encuentre: Mayor, menor, sumas y ordene los datos
