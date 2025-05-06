@@ -64,3 +64,8 @@ Console.WriteLine ($" Población General:{Poblacion. Sum():N0}");
 Console.WriteLine ($"Depto. con mayor Población:{maxDepkey}");
 Console.WriteLine ($"Depto. con menor Población:{minDepkey}");
 >>>>>>> VersionSimple((cambio entrante ))
+
+Console.WritLine($"datos Desordenados");
+foreach(var item in diccionario)
+Console.WriteLine($"{item.Key,-20}==>{item.Value,10:N0}");
+Console.WriteLine();
